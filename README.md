@@ -59,6 +59,9 @@ def Cari_data(df, nama):
     if (found == 0):
         print("Data tidak ada")
 ```
+\
+Pada package daftar_nilai.py ini berisi source code untuk menambah, menghapus, melihat dan mencari data.
+
 
 ### view_nilai.py
 ```python
@@ -89,8 +92,10 @@ def lihatdata(df):
         print("|                                TIDAK ADA DATA                              |")
         print("=" * 78)
 ```
+\
+Pada package view_nilai.py berisi cetak data, dan lihat data
 
-### input_nilai
+### input_nilai.py
 ```python
 def input_data(df, dz):
     nim = input("Masukan NIM : ")
@@ -101,6 +106,9 @@ def input_data(df, dz):
 
     dz.tambah_data(df, nim, nama, tugas, uts, uas)
 ```
+\
+Pada package input_nilai.py berisi source code agar pengguna bisa menginput data.
+
 
 ### main.py
 ```python
@@ -124,6 +132,8 @@ while True:
     if (menu == "X"):
         break
 ```
+\
+Pada main.py berisi program utama yang menjalankan semua program yang ada.
 
 
 ## Output Package and Module
@@ -132,10 +142,17 @@ while True:
 ![1](https://user-images.githubusercontent.com/116176746/212461846-48a5d619-98bd-4c13-ab6d-bf1c968e95df.png)
 
 **Ubah Data**
+\
 ![2](https://user-images.githubusercontent.com/116176746/212461894-955161e5-d0d8-4a08-8bfa-10307e437de0.png)
 
 **Cari Data**
+\
 ![3](https://user-images.githubusercontent.com/116176746/212461907-1012d65d-aef8-417b-ac54-0e17f2173a57.png)
 
 **Keluar Program**
+\
 ![4](https://user-images.githubusercontent.com/116176746/212461926-6c7308fc-c56e-4184-8bf1-ceb4d2d3fbaf.png)    
+
+**Hapus Data**
+\
+![5](https://user-images.githubusercontent.com/116176746/212462902-f625e951-c91c-4c54-88f8-1eb4496a7fc4.png)
